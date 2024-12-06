@@ -1,0 +1,763 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin-left: 0;
+}
+
+section {
+    padding: 50px 20px; /* Adiciona espaço interno */
+    margin: 50px 0; /* Adiciona espaço entre as seções */
+  }
+  
+body{
+    background-color: rgb(0, 0, 0);
+     overflow: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari e Edge: Oculta a barra */
+  }
+
+section.sec-1{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.det-topo{
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+        margin: 0; 
+}
+
+.interface{
+    margin: 0 auto;
+    max-width: 1440px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    gap: 300px;
+    top: 1;
+}
+
+section.det-topo{
+    display: block;
+}
+
+.txt-topo h2{
+    color: rgb(255, 60, 0);
+    font-size: 32px;
+}
+
+.txt-topo p{
+    color: rgb(119, 117, 117);
+    font-size: 16px;
+}
+
+.txt-topo h1{
+    color: white;
+    font-size: 64px;
+}
+
+.txt-topo{
+    margin-top: 86px;
+}
+
+.button{
+    border-radius: 30px;
+    background-color: rgb(255, 60, 0);
+    width: 300px;
+    cursor: pointer;
+    margin-top: 35px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    transition: all 1s ease-in-out;
+}
+
+.button:hover{
+    background-color: #ff4800;
+    box-shadow: 0 0 10px rgb(255, 60, 0), 0 0 20px #ff4800, 0 0 30px #ff4800;
+    transition: .3s;
+    transform: scale(1.1);
+
+}
+
+.img-topo{
+    margin-top: 95px;
+    
+}
+
+.divisor-linha {
+    width: 100%; /* Faz a linha atravessar toda a largura */
+    height: 70px; /* Espessura da linha */
+    background-color: #ff4800; /* Cor da linha */
+    margin: 40px 0; /* Espaçamento vertical entre as seções */
+    position: absolute;
+    margin-top: 60px;
+  }
+  
+  .img-sec2{
+    position: absolute;
+    margin-top: 79px;
+    left: 0;
+   
+  }
+
+  .sec-2 {
+    position: relative; 
+
+  }
+  
+.img-sec2 img {
+    width: 100%; /* A imagem vai ocupar toda a largura disponível da secção */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove o espaço abaixo da imagem */
+}
+  
+  .txt-sec2 {
+    position: relative; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+    color: white; 
+    text-align: center; 
+    margin-top: 200px;
+  }
+  
+  .txt-sec2 span {
+    color: #ff4800; 
+  }
+  
+.box h1{
+    color: #ff4800;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.box p{
+    color: white;
+    padding: 0 15px;
+    font-size: 10px;
+}
+
+.box {
+    background-color: rgb(61, 60, 60);
+    z-index: 2; 
+    position: relative;
+    max-width: 293px;
+    border-radius: 30px;
+    margin-top: 35px;
+    border-left: 5px solid #ff4800; /* Define a largura e a cor da borda */
+    transition: all 1s ease-in-out;
+}
+
+
+.box:hover{
+    background-color: #ff4800;
+    transition: .3s;
+    box-shadow: 0 0 5px rgb(255, 60, 0), 0 0 10px #ff4800, 0 0 15px #ff4800;
+    
+}
+
+.box:hover h1{
+    color: black;
+    transition: .3s;
+}
+
+.flex2{
+    display: flex;
+    gap: 28px;
+}
+
+  
+.boxers {
+    display: flex;
+    flex-direction: column; /* Alinha as caixas em coluna */
+    align-items: center; /* Centraliza o conteúdo dentro de .boxers */
+    margin-top: -50px;
+  }
+
+.t2{
+    margin-top: -25px;
+}
+
+/*SEC3*/
+
+section.sec-3 span{
+    color: #ff4800;
+}
+
+section.sec-3 h1{
+    color: white;
+}
+
+section.sec-3 p{
+    color: white;
+}
+
+section.sec-3 h2{
+    color: white;
+}
+
+.txt-sec3{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+.flex3{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+.carac{
+    text-align: left;
+    align-items:center ;
+}
+
+.carac p {
+    position: relative;
+    padding-left: 20px; /* Adiciona espaço antes do texto */
+    color: white; /* Cor do texto */
+    font-size: 16px; /* Tamanho do texto */
+    margin: 10px 0; /* Espaçamento vertical entre os itens */
+    margin-left: 20px;
+}
+
+.carac p::before {
+    content: '•'; /* Adiciona uma bolinha antes do texto */
+    color: #ff4800; /* Cor da bolinha */
+    font-size: 20px; 
+    position: absolute;
+    left: 0; 
+    top: 0;
+    transform: translateY(2px); 
+}
+
+.button3 {
+    background-color: #ff4800;
+    font-size: 12px;
+    border: none;
+    border-radius: 30px;
+    width: 148px;
+    margin-top: 28px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.button3:hover{
+    transform: scale(1.1);
+    transition: .2s;
+    box-shadow: 0 0 5px rgb(255, 60, 0), 0 0 10px #ff4800, 0 0 15px #ff4800;
+    
+}
+
+.box3{
+    border: 2px solid rgb(255, 60, 0);
+    width: 337px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgb(255, 60, 0), 0 0 10px #ff4800, 0 0 15px #ff4800;
+    transition: all 1s ease-in-out;
+}
+
+.box3:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.box3 h2{
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.dentro{
+    justify-content: center;
+    align-items: center;
+}
+
+.button4{
+    background-color: #ff4800;
+    width: 50px;
+    border-radius: 100%;
+    size-adjust: fixed;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all 1s ease-in-out;
+}
+
+.button4:hover{
+    transform: scale(1.1);
+    transition: .3s;
+    box-shadow: 0 0 5px rgb(255, 60, 0), 0 0 10px #ff4800, 0 0 15px #ff4800;
+
+}
+
+.button4 i{
+    font-size: 25px;
+    padding: 0 auto;
+}
+
+.flexb{
+    display: flex;
+    gap: 7px;
+}
+
+.flexi{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.txt-sec4 h1 span{
+    color: #ff4800;
+}
+
+.txt-sec4 h1{
+    font-size: 30px;
+    color: white;
+}
+
+.txt-sec4 p{
+    color: white;
+    font-size: 16px;
+    width: 500px;
+}
+
+/*sec5*/
+
+.flex5{
+    display: flex;
+    gap: 200p;
+    justify-content: center;
+    align-items: center;
+}
+
+section.sec-5{
+    margin-top: 200px;
+}
+
+section.sec-5 h1{
+    color: white;
+}
+
+section.sec-5 span{
+    color: #ff4800;
+}
+
+section.sec-5 p{
+    color: white;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column; /* Empilha os botões verticalmente */
+    gap: 10px;              /* Espaçamento entre os botões */
+    width: 100%;            /* Garante que o container use toda a largura disponível */
+    align-items: center;    /* Centraliza os botões */
+}
+
+.box5 {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    align-items: center;    /* Centraliza o conteúdo horizontalmente */
+    gap: 20px;              /* Espaçamento entre os elementos */
+    border: 2px solid #ff4800;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgb(255, 60, 0), 0 0 10px #ff4800, 0 0 15px #ff4800;
+}
+
+.list p::before {
+    content: '•'; /* Adiciona uma bolinha antes do texto */
+    color: #ff4800; /* Cor da bolinha */
+    font-size: 20px; 
+    position: absolute;
+    left: 0; 
+    top: 0;
+    transform: translateY(2px); 
+}
+
+.list p {
+    position: relative;
+    padding-left: 20px; /* Adiciona espaço antes do texto */
+    color: white; /* Cor do texto */
+    font-size: 16px; /* Tamanho do texto */
+    margin: 10px 0; /* Espaçamento vertical entre os itens */
+    margin-left: 20px;
+}
+
+.list{
+    text-align: left;
+}
+
+.button5{
+    width: 100%;
+    background-color: #ff4800;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.button5 h2{
+    padding: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+.button6{
+    width: 100%;
+    background-color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 2px solid #ff4800;
+}
+
+.button6:hover{
+    background-color: #ff4800;
+    transition: .2s;
+}
+
+.button5:hover{
+    transform: scale(1.1);
+    transition: .3s;
+    box-shadow: 0 0 5px rgb(255, 60, 0), 0 0 10px #ff4800, 0 0 15px #ff4800;
+}
+
+
+.button6 h2{
+    padding: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+.box5 h1{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.txt-5{
+    text-align: center;
+    font-size: 15px;
+}
+
+.sec-5 {
+    display: flex;            /* Ativa o Flexbox */
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;      /* Centraliza verticalmente */
+    min-height: 100vh;        /* Garante que a section ocupe a altura total da tela */
+    text-align: center;       /* Centraliza textos dentro da section */
+    padding: 20px;            /* Adiciona espaçamento interno */
+    box-sizing: border-box;   /* Inclui padding dentro do tamanho da section */
+}
+
+.flex5 {
+    display: flex;            /* Ativa Flexbox dentro da estrutura */
+    flex-wrap: wrap;          /* Permite que os itens "quebrem linha" em telas menores */
+    justify-content: center;  /* Centraliza horizontalmente os filhos */
+    align-items: center;      /* Alinha verticalmente os filhos */
+    gap: 20px;                /* Adiciona espaço entre os itens */
+    max-width: 1200px;        /* Define uma largura máxima */
+    width: 100%;              /* Faz o container ocupar toda a largura disponível */
+}
+
+.img-5{
+    margin-right: 15%;
+}
+
+.box {
+    transform: translateY(50px); /* Começa deslocada para baixo */
+    opacity: 0; /* Invisível inicialmente */
+    transition: all 0.5s ease-in-out; /* Animação suave */
+}
+
+.box.appear {
+    transform: translateY(0); /* Volta para a posição original */
+    opacity: 1; /* Totalmente visível */
+}
+
+.sec-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  .txt-sec4 {
+    opacity: 0;
+    transform: translateX(-100px); /* Começa à esquerda */
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  .img-sobre {
+    opacity: 0;
+    transform: translateX(100px); /* Começa à direita */
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  .in-view {
+    opacity: 1;
+    transform: translateX(0); /* Volta à posição original */
+  }
+  
+  .divisor-linha2 {
+    width: 100%; /* Faz a linha atravessar toda a largura */
+    height: 200px; /* Espessura da linha */
+    background-color: #ff4800; /* Cor da linha */
+    margin: 40px 0; /* Espaçamento vertical entre as seções */
+    position: absolute;
+    margin-top: 60px;
+  }
+
+
+.txt-ad span{
+    color: #ff4800;
+}
+
+.txt-ad{
+    justify-content: center;
+    text-align: center;
+}
+
+.txt-ad h1{
+    color: white;
+}
+
+.flex-ad{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flex-ad i{
+    color: #ff4800;
+    font-size: 45px;
+    position: relative;
+    margin-top: 80px;   
+}
+
+.box-ad p{
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    
+}
+
+.box-ad{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    max-width: 293px;
+    border-radius: 20px;
+    margin-top: 35px;
+    border: 1px solid rgb(102, 100, 100);
+    border-left: 5px  solid #ff4800;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box-ad:hover{
+    transform: scale(1.02);
+    transition: .2s;
+    box-shadow: 0 0 5px rgb(255, 60, 0), 0 0 10px #ff4800, 0 0 15px #ff4800;
+    background-color: #ff480047;
+}
+
+
+.txt-ad2{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.boxe-ad2 p{
+    color: white;
+    font-size: 14px;
+    padding: 10px ;
+}
+
+/* Estilo básico das caixas */
+.boxe-ad2 {
+    display: flex; /* Ativa o flexbox */
+    align-items: center; /* Alinha o conteúdo verticalmente ao centro */
+    justify-content: center; /* Alinha o conteúdo horizontalmente ao centro */
+    width: 300px; /* Largura fixa (ajuste conforme necessário) */
+    height: 150px; /* Altura fixa (ajuste conforme necessário) */
+    background: linear-gradient(to bottom, #000000, #ff3c0052); /* Degradê vertical */
+    border: 1px solid #ff3c00; /* Borda para visibilidade */
+    border-radius: 15px; /* Borda arredondada (opcional) */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui padding e border no tamanho total */
+  
+}
+
+  .boxe-ad2:hover{
+    transform: scale(1.02);
+    transition: .2s;
+    background: linear-gradient(to bottom, #000000, #ffffff3d);
+    box-shadow: 0 0 5px rgb(255, 60, 0), 0 0 10px #ff4800, 0 0 15px #ff4800;
+  }
+
+  .boxe-ad2:hover p{
+    color: #ff3c00;
+  }
+  
+  /* Para manter todas as caixas na mesma linha */
+  .flex-ad2 {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar linha se necessário */
+    gap: 30px; /* Espaçamento entre as caixas */
+    justify-content: center; /* Centraliza as caixas no container */
+    margin-top: 50px;
+  }
+  
+.txt-ad2 span{
+    color: #ff3c00;
+  }
+
+.button-ad2{
+    border-radius: 30px;
+    background-color: rgb(255, 60, 0);
+    width: 300px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    position: relative;
+    justify-content: center;
+    display: inline-block; 
+    transition: all 0.3s ease-in-out;
+  }
+
+  .button-ad2 h1{
+    font-size: 15px;
+  }
+
+  
+  .button-ad2:hover{
+    transform: scale(1.03);
+    transition: .2s;
+    box-shadow: 0 0 5px rgb(255, 60, 0), 0 0 10px #ff4800, 0 0 15px #ff4800;
+    
+  }
+
+  .sec-ad2 {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    align-items: center;    /* Centraliza horizontalmente */
+}
+/* Responsividade */
+@media screen and (max-width: 1020px){
+    /*section 1*/
+    section.sec-1{
+        flex-direction: column;
+    }
+
+    .flex{
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .txt-topo{
+        justify-content: center;
+        text-align: center;
+    }
+
+    /*Section 2*/
+     .img-sec2 img{
+        height: 65vh;
+     }
+    
+     /*section 3*/
+     .flex3{
+    flex-direction: column;
+     }
+    /*Section 4*/
+    .flexi{
+        flex-direction: column-reverse;
+    }
+
+    .flexb{
+        justify-content: center;
+    }
+
+    /*section 5*/
+    .img-5 {
+        margin-right: 0;
+        max-width: 100%; /* Garantindo que a imagem não ultrapasse a largura da tela */
+    }
+    
+    .flex5{
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 510px){
+    /*section*/
+    .img-sec2 img { 
+       height: 190vh;
+     }
+
+     .flex2{
+        flex-direction: column;
+     }
+
+     /*section 4*/
+     .flexi{
+        padding: 20px;
+     }
+
+     /*section ad*/
+     .flex-ad{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+    /*sobre*/
+     .txt-sec4 h1{
+        justify-content: center;
+        padding: 10px;        
+     }
+
+     .txt-sec4 p{
+        font-size: 16px;
+        padding: 10px;
+        max-width: 360px; 
+        word-wrap: break-word; 
+        overflow-wrap: break-word; 
+     }
+
+     .button4 i{
+        color: #000000;
+     }
+
+     .button4{
+        justify-content: center;
+     }
+
+     .img-sobre img{
+        width: 100%;
+        padding: 10px;
+     }
+}
